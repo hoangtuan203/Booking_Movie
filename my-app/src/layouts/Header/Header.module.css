@@ -1,0 +1,106 @@
+.header {
+  background-color: #121212; /* Màu nền tối */
+  color: white; /* Màu chữ trắng */
+  padding: 10px 20px; /* Khoảng cách bên trong */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Đổ bóng nhẹ */
+}
+
+.container {
+  display: flex; /* Đảm bảo tất cả thành phần nằm ngang */
+  align-items: center; /* Canh giữa theo trục dọc */
+  justify-content: space-between; /* Phân bổ khoảng cách giữa các phần */
+  max-width: 1200px; /* Giới hạn chiều rộng */
+  margin: 0 auto; /* Căn giữa container */
+}
+
+.logo {
+  flex: 1; /* Chiếm một phần không gian */
+}
+
+.logoImg {
+  height: 50px; /* Chiều cao của logo */
+  width: auto; /* Chiều rộng tự động theo tỷ lệ */
+  cursor: pointer; /* Thêm hiệu ứng con trỏ */
+}
+
+.nav {
+  flex: 2; /* Menu chiếm hai phần không gian */
+}
+
+.menu {
+  display: flex; /* Đảm bảo các mục menu nằm ngang */
+  list-style: none; /* Xóa bullet points */
+  gap: 20px; /* Khoảng cách giữa các mục */
+  margin: 0; /* Xóa khoảng cách mặc định */
+  padding: 0; /* Xóa khoảng cách mặc định */
+}
+
+.menuItem a {
+  text-decoration: none; /* Xóa gạch chân */
+  color: white; /* Màu chữ trắng */
+  font-size: 16px; /* Kích thước chữ */
+  transition: color 0.3s ease; /* Hiệu ứng hover */
+}
+
+.menuItem a:hover {
+  color: #f39c12; /* Màu vàng khi hover */
+}
+
+.search {
+  flex: 3; /* Thanh tìm kiếm chiếm ba phần không gian */
+  display: flex; /* Các thành phần nằm ngang */
+  align-items: center; /* Canh giữa theo trục dọc */
+  gap: 10px; /* Khoảng cách giữa input và button */
+}
+
+.searchInput {
+  flex: 1; /* Chiếm toàn bộ chiều rộng có thể */
+  padding: 8px 12px; /* Khoảng cách bên trong */
+  border-radius: 4px; /* Góc bo tròn */
+  border: 1px solid #ccc; /* Đường viền xám nhạt */
+  font-size: 14px; /* Kích thước chữ */
+}
+
+.searchBtn {
+  background-color: #f39c12; /* Màu nền vàng */
+  color: white; /* Màu chữ trắng */
+  border: none; /* Xóa đường viền */
+  border-radius: 4px; /* Góc bo tròn */
+  padding: 8px 12px; /* Khoảng cách bên trong */
+  cursor: pointer; /* Thêm hiệu ứng con trỏ */
+  transition: background-color 0.3s ease; /* Hiệu ứng hover */
+}
+
+.searchBtn:hover {
+  background-color: #e67e22; /* Màu cam khi hover */
+}
+
+.actions {
+  flex: 1; /* Chiếm một phần không gian */
+  display: flex; /* Các thành phần nằm ngang */
+  justify-content: flex-end; /* Canh phải */
+  gap: 10px; /* Khoảng cách giữa các nút */
+}
+
+.btn {
+  background-color: transparent; /* Nền trong suốt */
+  color: white; /* Màu chữ trắng */
+  border: 1px solid white; /* Viền trắng */
+  padding: 8px 12px; /* Khoảng cách bên trong */
+  border-radius: 4px; /* Góc bo tròn */
+  cursor: pointer; /* Thêm hiệu ứng con trỏ */
+  transition: all 0.3s ease; /* Hiệu ứng hover */
+}
+
+.btn:hover {
+  background-color: #f39c12; /* Màu nền vàng khi hover */
+  border-color: #f39c12; /* Viền vàng khi hover */
+}
+
+.btnLogin {
+  /* Thêm style cho nút Login nếu cần */
+}
+
+.btnSignup {
+  /* Thêm style cho nút Sign Up nếu cần */
+}

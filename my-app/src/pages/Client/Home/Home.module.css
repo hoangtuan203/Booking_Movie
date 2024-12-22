@@ -1,0 +1,80 @@
+.home {
+    padding: 20px;
+  }
+  
+  .sectionTitle {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Slider Section */
+  .sliderSection {
+    margin-bottom: 40px;
+  }
+  
+  .sliderItem {
+    position: relative;
+    text-align: center;
+  }
+  
+  .sliderItem img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .sliderTitle {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 18px;
+  }
+  
+  /* Review Section */
+  .reviewSection {
+    margin-top: 40px;
+  }
+  
+  .reviewGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .reviewCard {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .reviewCard:hover {
+    transform: translateY(-5px);
+  }
+  
+  .reviewCard img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .reviewTitle {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .reviewExcerpt {
+    font-size: 14px;
+    color: #555;
+    padding: 0 10px 10px;
+  }
+  
